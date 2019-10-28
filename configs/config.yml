@@ -1,0 +1,16 @@
+release: false
+port: 3001
+
+http_server:
+  read_timeout: 10s
+  write_timeout: 10s
+  read_header_timeout: 10s
+
+  mongodb:
+    hosts: "127.0.0.1:27017"
+    timeout: "5s"
+    username: ""
+    password: ""
+
+    schema:
+      db_name: "go_db"

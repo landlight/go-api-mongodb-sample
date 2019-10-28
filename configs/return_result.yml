@@ -1,0 +1,45 @@
+invalid_param:
+  code: 108
+  message: "Parameter is invalid"
+
+invalid_request:
+  code: 109
+  message: "The request is invalid"
+
+invalid_format:
+  code: 110
+  message: "Data format is invalid"
+
+invalid_download:
+  code: 111
+  message: "System cannot download file from gcloud zoom. Please try again later."
+
+invalid_upload:
+  code: 112
+  message: "System cannot upload file from gcloud zoom. Please try again later."
+
+file_not_found:
+  code: 113
+  message: "File not found. Please try again later."
+
+# These are what we response to our internal services
+internal:
+  success:
+    code: 0
+    message: "Success"
+  general:
+    code: 500
+    message: "System cannot process this request at the moment. Please try again later."
+  bad_request:
+    code: 400
+    message: "System cannot process this request at the moment. Please try again later."
+  connection_error:
+    code: 500
+    message: "Connection error. Please try again."
+  db_session_not_found:
+    code: 404
+    message: "Database session not found. Please try again."
+  
+  unauthorized:
+    code: 401
+    message: "System cannot process this request at the moment. Please try again later."
